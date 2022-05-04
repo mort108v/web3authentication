@@ -1,7 +1,8 @@
 .signOutCard {
   width: 50vw;
   height: auto;
-  background-color: white;
+  color: white;
+  background-color: rgb(67, 34, 158);
   padding: 20px;
   border-radius: 20px;
   display: flex;
@@ -50,13 +51,14 @@
 }
 
 .fotter > button {
+  
   width: 100px;
 }
 
 .fotter > button:nth-child(2) {
-  border: 1px solid black;
+  border: 1px solid white;
   background-image: none;
-  color: black;
+  color: white;
   background-color: transparent;
 }
 
